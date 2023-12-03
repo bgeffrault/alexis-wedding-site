@@ -23,7 +23,12 @@ export default function Home() {
           02/06/2024
         </p>
         <div className='flex gap-6 flex-col'   >
-          <LinkCard href="https://maps.app.goo.gl/K8aA5pyaiLWb6sQ97" location="La Jeannière, 85150 Sainte-Foy" title="Domaine de l'Etablière" imgSrc={castleImg} />
+          <LinkCard
+            href="https://maps.app.goo.gl/K8aA5pyaiLWb6sQ97"
+            description=""
+            location="La Jeannière, 85150 Sainte-Foy"
+            title="Domaine de l'Etablière"
+            imgSrc={castleImg} />
 
 
           <Link href="accomodations" >

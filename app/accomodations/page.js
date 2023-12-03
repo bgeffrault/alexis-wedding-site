@@ -38,7 +38,7 @@ export default function Page() {
                 <div className='flex gap-6 flex-col'>
 
                     <LinkCard
-                        href="https://maps.app.goo.gl/K8aA5pyaiLWb6sQ97"
+                        href="https://maps.app.goo.gl/Zk3wu8Tf9EwTE6B26"
                         location={
                             <span>
                                 48 rue Eric Tabarly, Olonne sur Mer
@@ -47,7 +47,7 @@ export default function Page() {
                             </span>
                         }
                         title="Ibis budget Les Sables-d'Olonne"
-                        description={<DestinationTime timeCar="10" distance="9" />}
+                        description={<DestinationTime timeCar="10" distance="9" description='Hôtel de tourisme 2 étoiles' />}
                         imgSrc={ibisImg} />
                     <LinkCard
                         href="https://maps.app.goo.gl/z3qTGGn9pYPqgiFx9"
@@ -59,7 +59,8 @@ export default function Page() {
                             </span>
                         }
                         title="Camping Au Pré de l'Étang"
-                        description={<DestinationTime timeCar="10" distance="3,1-3,8" />} description="Camping 3 étoiles"
+                        description={
+                            <DestinationTime timeCar="10" distance="3,1-3,8" description="Camping 3 étoiles" />}
                         imgSrc={campingEtangImg} />
                     <LinkCard
                         href="https://maps.app.goo.gl/Zscco4pByG1UdnHs9"
@@ -71,7 +72,8 @@ export default function Page() {
                             </span>
                         }
                         title="Côte Ouest Thalasso & Spa Les Sables-d'Olonne - MGallery"
-                        description={<DestinationTime timeCar="15" distance="10" />} description="Hôtel de tourisme 4 étoiles"
+                        description={
+                            <DestinationTime timeCar="15" distance="10" description="Hôtel de tourisme 4 étoiles" />}
                         imgSrc={hotelThalassoImg} />
                 </div>
             </main>
